@@ -150,13 +150,13 @@
 
     
     <!-- Popular Products -->
-     <section class="bg-[#EFEBE3]">
-      <div class="md:container md:mx-auto">
+     <section class="bg-[#EFEBE3] ">
+      <div class="md:container md:mx-auto ">
+        
+    <h3 class="text-[#179800] text-4xl font-semibold mt-36 mb-12">Popular Products</h3>
 
-    <h3 class="text-[#179800] text-4xl font-semibold mt-20 mb-12">Popular Products</h3>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div class="relative bg-gradient-to-r from-[#179800] to-white p-10 rounded-xl overflow-hidden">
+    <div class="grid grid-cols-1 md:grid-cols-[40%_60%] gap-8 ">
+      <div class="relative bg-gradient-to-r from-[#179800] to-white p-6 rounded-xl overflow-hidden mb-36">
         
         <div class="text-left">
             <h5 class="text-white font-semibold text-3xl">30% off</h5>
@@ -172,7 +172,7 @@
     
       </div>
 
-      <div class="grid grid-cols-2 md:grid-cols-3 mx-2 gap-6">
+      <div class="grid grid-cols-2 md:grid-cols-3 mx-2 gap-6 mb-36"">
         <div class="bg-white px-8 py-6 mx-2 my-2 rounded-xl flex">
           <div>
             <img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/onion.png" alt="">
@@ -190,7 +190,7 @@
 
         </div>
 
-        <div class=" bg-white px-8 py-6 mx-2 my-2 rounded-xl flex">
+        <div class=" bg-white px-8 py-6 mx-2 my-2 rounded-xl flex ">
           <div>
             <img class="bg-[#EFEBE3] rounded-xl" src="c2-assets/tomato.png" alt="">
           </div>
@@ -300,6 +300,8 @@
       </div>
     </div>
       </div>
+    
+
      </div>
     </div>
 
@@ -309,15 +311,20 @@
   <section class="md:container md:mx-auto">
 
     <h3 class="text-[#179800] text-4xl font-semibold mt-20 mb-12">Arrival & Offers</h3>
-    <div>
 
-    <div class="bg-[#115414] rounded-xl flex">
+    
+
+    <div class="grid grid-cols-1 md:grid-cols-[60%_40%] justify-center items-center  mx-2">
+
+      <!-- card 1 -->
+
+      <div class="bg-[#115414] rounded-xl flex justify-between px-5 pt-6 my-4 ">
 
       <div>
         <img src="c2-assets/dawat-logo.png" alt="">
-        <button>Cook Exotic Dishes</button>
+        <button class="bg-[#63B76D] px-10 py-2 my-2 mx-2 rounded-xl text-white">Cook Exotic Dishes</button>
 
-        <h4>UP to 20% OFF</h4>
+        <h4 class="text-4xl text-white">UP to <span class="font-bold">20% OFF</span></h4>
 
       </div>
 
@@ -327,12 +334,14 @@
 
     </div>
 
+    <!-- card 2 -->
 
-    <div>
+
+    <div class="bg-[#102861] rounded-xl  flex px-6 py-6  ml-8 ">
       <div>
         <img src="c2-assets/india-gate-logo.png" alt="">
-        <button>World’s No.1 Rice</button>
-        <h4>UP to 40% OFF</h4>
+        <button class="bg-[#2A4D97] px-10 py-2 my-2 mx-2 rounded-xl text-white">World’s No.1 Rice</button>
+        <h4 class="text-4xl text-white">UP to <span class="font-bold">40% OFF</span></h4>
 
       </div>
 
@@ -342,6 +351,10 @@
     </div>
   </div>
   </section>
+
+
+
+  
 
     </main>
 
